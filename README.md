@@ -36,45 +36,7 @@ as described in the original paper.
 
 ###  QUALITATIVE RESULTS
 
-The following images compare Baseline Stable Diffusion vs. InitNO.  
-These examples highlight improvements in **subject separation** and **attribute binding**.
-
-<table style="width:100%; table-layout: fixed; text-align: center;">
-<thead>
-<tr>
-<th width="30%">Prompt</th>
-<th width="35%">Baseline (Standard SD)</th>
-<th width="35%">InitNO (Optimized)</th>
-</tr>
-</thead>
-<tbody>
-
-<tr>
-<td>A cat and a rabbit</td>
-<td><img src="output/base_0.png" width="250"></td>
-<td><img src="output/prompt_0_seed2024.png" width="250"></td>
-</tr>
-
-<tr>
-<td>A red suitcase and a yellow clock</td>
-<td><img src="output/base_1.png" width="250"></td>
-<td><img src="output/prompt_1_seed2024.png" width="250"></td>
-</tr>
-
-<tr>
-<td>A frog and a purple balloon</td>
-<td><img src="output/base_2.png" width="250"></td>
-<td><img src="output/prompt_2_seed0.png" width="250"></td>
-</tr>
-
-<tr>
-<td>A cat and a sunflower, Van Gogh style</td>
-<td><img src="output/base_3.png" width="250"></td>
-<td><img src="output/prompt_3_seed0.png" width="250"></td>
-</tr>
-
-</tbody>
-</table>
+<table style="width:100%; table-layout: fixed; text-align: center;"> <thead> <tr> <th width="30%">Prompt</th> <th width="35%">Standard SD (Baseline)</th> <th width="35%">InitNO (Optimized)</th> </tr> </thead> <tbody> <tr> <td>A cat and a rabbit</td> <td><img src="output/base_0.png" width="250"></td> <td><img src="output/prompt_0_seed2024.png" width="250"></td> </tr> <tr> <td>A frog and a purple balloon</td> <td><img src="output/base_2.png" width="250"></td> <td><img src="output/prompt_1_seed2024.png" width="250"></td> </tr> <tr> <td>A red suitcase and a yellow clock</td> <td><img src="output/base_1.png" width="250"></td> <td><img src="output/prompt_2_seed0.png" width="250"></td> </tr> <tr> <td>A cat and a sunflower, Van Gogh style</td> <td><img src="output/base_3.png" width="250"></td> <td><img src="output/prompt_3_seed0.png" width="250"></td> </tr> </tbody> </table>
 
 ---
 
